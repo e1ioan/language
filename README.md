@@ -3,6 +3,8 @@
 **How to Use This Text**
 
 This is a *universal seed text*: a short story designed to help any person begin learning a new language.  
+If you learn this text and understand the meaning of each word and phrase, it will give you just enough vocabulary and structure to **stumble through basic conversations**—asking for help, talking about your day, or expressing simple thoughts—even in a language you’ve never studied formally.
+
 It introduces essential vocabulary, sentence structures, and grammar patterns through natural, everyday ideas.
 
 It is meant to be:
