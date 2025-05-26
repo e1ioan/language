@@ -3,14 +3,25 @@
 **How to Use This Text**
 
 This is a *universal seed text*: a short story designed to help any person begin learning a new language.  
-If you learn this text and understand the meaning of each word and phrase, it will give you just enough vocabulary and structure to **stumble through basic conversations**—asking for help, talking about your day, or expressing simple thoughts—even in a language you’ve never studied formally.
+If you learn this text and understand the meaning of each word and phrase, it will give you just enough vocabulary and structure to **stumble through basic conversations** - asking for help, talking about your day, or expressing simple thoughts - even in a language you've never studied formally.
 
 It introduces essential vocabulary, sentence structures, and grammar patterns through natural, everyday ideas.
 
-It is meant to be:
-- Translated **idiomatically**, not literally
-- Adapted for **natural grammar and flow** in the target language
-- Used by learners to **see**, **hear**, and **interact with** the basics of a language in context
+---
+
+### How to Use This Seed with an AI
+
+To use this text with any AI assistant, language model, or chatbot (like ChatGPT, Claude, etc.), simply give it the following instruction:
+
+> "You are a language tutor. This is a universal seed text. Teach me the target language step by step using this text. Follow the teaching loop described in the seed. Tolerate small spelling or grammar errors and help me correct them gently. Begin when ready."
+
+You can paste the full seed after this prompt. The AI will then:
+- Translate or interpret the text as needed
+- Use it to walk you through meaning, pronunciation, and practice
+- Follow a predictable learning algorithm
+- Tolerate minor mistakes as signs of progress, not failure
+
+You can do this in any language pair: English ? Portuguese, French ? Arabic, Romanian ? Japanese, etc.
 
 ---
 
@@ -42,27 +53,27 @@ Use the following basic algorithm to guide the learner:
 
 ---
 
-### Teaching Algorithm (LLM-based Tutor Mode)
+### ?? Teaching Algorithm (LLM-based Tutor Mode)
 
 **Input:**
 - `source_lang`: language the learner knows
 - `target_lang`: language the learner wants to learn
 - `seed_text_target`: translated version of this text in target language
-- `seed_text_source`: equivalent in the learner’s native language
+- `seed_text_source`: equivalent in the learner's native language
 
 ---
 
 1. **Introduce the text gradually**  
    - Start with the first 1–2 sentences.
    - Show them in the **source language**.
-   - Ask: _“Can you guess how this sounds in [target_lang]?”_
+   - Ask: _"Can you guess how this sounds in [target_lang]?"_
 
 2. **Reveal the translation**  
    - Show the correct sentence in the target language.
    - Highlight key words and how they map across.
 
 3. **Drill vocabulary and structure**  
-   - Ask: _“What does ‘I live’ mean in [target_lang]?”_
+   - Ask: _"What does ‘I live' mean in [target_lang]?"_
    - Mix recall and recognition. Offer multiple choice, fill-in-the-blank, and typing.
 
 4. **Flip direction**  
@@ -86,10 +97,10 @@ Use the following basic algorithm to guide the learner:
    If the learner writes a sentence that is almost correct (e.g. *"meu nom e Alex"*), treat it as a correct *approximation*.  
    - Praise the attempt.
    - Show the correct form.
-   - Optionally explain the difference, but don’t interrupt momentum.
+   - Optionally explain the difference, but don't interrupt momentum.
 
 9. **Focus on understanding, not perfection**  
-   Meaning comes first. Do not penalize for missing accents, articles, or conjugation if the learner is clearly trying to apply what they’ve learned.
+   Meaning comes first. Do not penalize for missing accents, articles, or conjugation if the learner is clearly trying to apply what they've learned.
 
 ---
 
@@ -108,11 +119,11 @@ I met an old friend. We talked for a long time. We were happy.
 Tomorrow, I will visit my family. I want to bring them something nice.  
 Do you know where I can find a good gift? What do you like to give?  
 
-—Do you like this weather?  
-—Yes, I do. It is warm and sunny.  
-—No, I prefer cool and cloudy days.
+ - Do you like this weather?  
+ - Yes, I do. It is warm and sunny.  
+ - No, I prefer cool and cloudy days.
 
-I don’t like cold weather, but I like snow. I don’t eat meat, but I eat fish and eggs.  
+I don't like cold weather, but I like snow. I don't eat meat, but I eat fish and eggs.  
 We all need food, water, sleep, and love.  
 
 If I had more time, I would learn your language. Maybe you can help me.
