@@ -2,38 +2,92 @@
 
 **How to Use This Text**
 
-This is a universal seed text: a short, simple story designed to introduce high-frequency vocabulary and essential grammar in any language.
+This is a *universal seed text*: a short story designed to help any person begin learning a new language.  
+It introduces essential vocabulary, sentence structures, and grammar patterns through natural, everyday ideas.
 
-It works best when:
-- Translated **idiomatically**, not word-for-word
-- Adjusted for **natural flow**, **tense**, **politeness**, and **grammar norms** of the target language
-- Used as a **starting point** for language learners to see how everyday ideas are expressed
+It is meant to be:
+- Translated **idiomatically**, not literally
+- Adapted for **natural grammar and flow** in the target language
+- Used by learners to **see**, **hear**, and **interact with** the basics of a language in context
 
 ---
 
-**Instructions for Translators and Language Models (LLMs)**
+## For Translators and Language Models (LLMs)
 
-When translating this text into another language, follow these rules:
+When translating this story into another language:
 
-1. **Translate the *meaning*, not the form.**  
-   Preserve the intent, tone, and simplicity. If a direct translation sounds unnatural, rewrite it to match how native speakers would express the same idea.
+1. **Translate the meaning, not the exact form**.  
+   Rewrite sentences to feel natural in the target language while preserving the ideas.
 
-2. **Preserve diversity of structures.**  
-   Maintain different tenses (past, present, future), conditionals ("if we are tired…"), negations ("I don’t eat meat…"), and questions. These are essential for grammar exposure.
+2. **Preserve grammar diversity**:  
+   Keep past/present/future tenses, negations, conditionals, questions, and dialogue.
 
-3. **Keep the character neutral.**  
-   If needed for grammar (e.g. gendered languages), adapt the character name or use appropriate forms but keep the context simple and human.
+3. **Keep vocabulary simple and high-frequency**.  
+   Avoid rare or literary words unless no simple alternative exists.
 
-4. **Prioritize clarity over exactness.**  
-   Don’t be afraid to change word order or phrasing if the original sounds awkward in your language. For example:
-   - “I met an old friend” → “An old friend and I met” is fine if more natural.
-   - “Do you like this weather?” → adapt to local ways of asking preferences.
+4. **Respect cultural and grammatical context**.  
+   Adjust articles, gender, or honorifics as required by the language.
 
-5. **Avoid rare or literary words.**  
-   Keep the vocabulary grounded in everyday speech.
+5. **Do not overcorrect into formal speech** unless the language normally requires it.
 
-6. **Respect cultural context.**  
-   If any reference doesn’t make sense culturally, substitute with something equivalent (e.g. “TV” can be replaced with another common evening activity if needed).
+---
+
+## For Language Teaching Models: How to Use This Seed
+
+Once this seed is available in both the **user's native language** and the **target language**, you may begin teaching.
+
+Use the following basic algorithm to guide the learner:
+
+---
+
+### Teaching Algorithm (LLM-based Tutor Mode)
+
+**Input:**
+- `source_lang`: language the learner knows
+- `target_lang`: language the learner wants to learn
+- `seed_text_target`: translated version of this text in target language
+- `seed_text_source`: equivalent in the learner’s native language
+
+---
+
+1. **Introduce the text gradually**  
+   - Start with the first 1–2 sentences.
+   - Show them in the **source language**.
+   - Ask: _“Can you guess how this sounds in [target_lang]?”_
+
+2. **Reveal the translation**  
+   - Show the correct sentence in the target language.
+   - Highlight key words and how they map across.
+
+3. **Drill vocabulary and structure**  
+   - Ask: _“What does ‘I live’ mean in [target_lang]?”_
+   - Mix recall and recognition. Offer multiple choice, fill-in-the-blank, and typing.
+
+4. **Flip direction**  
+   - Show the sentence in the **target language**.
+   - Ask the user to translate into their own language.
+
+5. **Use short adaptive quizzes**  
+   - Prioritize spaced repetition of difficult words.
+   - Mix old and new words to reinforce memory.
+
+6. **Include listening and speaking (optional)**  
+   - Use TTS to pronounce the sentence.
+   - Ask learner to repeat.
+   - Offer basic pronunciation feedback (if supported).
+
+7. **Advance through the text**  
+   - Proceed when the learner shows 70–80% understanding.
+   - Revisit earlier sentences periodically for review.
+
+8. **Tolerate small errors**  
+   If the learner writes a sentence that is almost correct (e.g. *"meu nom e Alex"*), treat it as a correct *approximation*.  
+   - Praise the attempt.
+   - Show the correct form.
+   - Optionally explain the difference, but don’t interrupt momentum.
+
+9. **Focus on understanding, not perfection**  
+   Meaning comes first. Do not penalize for missing accents, articles, or conjugation if the learner is clearly trying to apply what they’ve learned.
 
 ---
 
